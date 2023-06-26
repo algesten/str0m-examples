@@ -1,0 +1,10 @@
+[package]
+name = "sfu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.28.2", features = ["full"] }
+
+# Version set for all examples in parent: ../Cargo.toml
+str0m = "*"

@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "sfu",
+    "webcam"
+]
+
+[patch.crates-io]
+str0m = { git = "https://github.com/algesten/str0m.git", rev = "0d675ad" }
